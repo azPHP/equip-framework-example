@@ -1,0 +1,14 @@
+{
+    "require": {
+        "equip/framework": "dev-dev",
+        "equip/data": "~1.2",
+        "zendframework/zend-diactoros": "^1.0.4",
+        "josegonzalez/dotenv": "^2.0",
+        "monolog/monolog": "^1.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src/"
+        }
+    }
+}

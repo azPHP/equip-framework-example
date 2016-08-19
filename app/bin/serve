@@ -1,0 +1,10 @@
+#!/bin/bash
+
+PORT="8000"
+HOST=${PHP_HOST:-localhost}
+
+if [ -n "$1" ]; then
+    PORT="$1"
+fi
+
+php -S $HOST:$PORT -t public/ public/index.php
